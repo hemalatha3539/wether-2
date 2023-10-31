@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <img src="weather2.jpg" alt="" class="image">
+      <h1 class="heading">WEATHER APP</h1>
+      <div class="in">
+        <input type="text" placeholder="enter city name" class="input" id="in">
+        
+          <button class="search" id="sea" onclick="check()"><i class="bi bi-search searc"></i></button>
+        
+       </div>
+      <div class="icon">
+        <i class="bi bi-clouds" class="cloud"></i>
+        
+        <h1 class="deg" id="deg">0°C</h1>
+        <h1 class="deg" id="name">PLACE</h1>
+      </div>
+
+
+      <div class="flex">
+      <div class="wind">
+        <i class="bi bi-water"></i>
+        <h1 class="deg">wind flow</h1>
+        <h1 class="deg" id="speed">0 km/h</h1>
+      </div>
+
+      <div class="humidity">
+        <i class="bi bi-cloud-lightning-rain-fill"></i>
+        <h1 class="deg" >Humidity</h1>
+        <h1 class="deg" id="percent">0 gm/kg</h1>
+      </div>
+      <div class="humidity">
+        <i class="bi bi-tsunami"></i>
+        <h1 class="deg" >Pressure</h1>
+        <h1 class="deg" id="pressure">0pr</h1>
+      </div>
+      <div class="humidity">
+        <i class="bi bi-globe"></i>
+        <h1 class="deg" >latitude</h1>
+        <h1 class="deg" id="lat">0 gm/kg</h1>
+      </div>
+      <div class="humidity">
+        <i class="bi bi-globe2"></i>
+        <h1 class="deg" >longitude</h1>
+        <h1 class="deg" id="lan">0 gm/kg</h1>
+      </div>
+    </div>
+    <!--  -->
+<div class="flex-2">
+      <div class="sunrise ">
+        <i class="bi bi-cloud-sun"></i>
+        <h1 class="deg">sunrise</h1>
+        <h1 class="deg" id="sunr" >0 </h1>
+      </div>
+
+      <div class="sunset">
+        <i class="bi bi-cloud-moon"></i>
+        <h1 class="deg">sunset</h1>
+        <h1 class="deg" id="suns" >0 </h1>
+      </div>
+      <div class="sunset">
+        <i class="bi bi-thermometer-low"></i>
+        <h1 class="deg">temp-low</h1>
+        <h1 class="deg" id="low" >0°C</h1>
+      </div>
+      <div class="sunset">
+        <i class="bi bi-thermometer-high"></i>
+        <h1 class="deg">temp-high</h1>
+        <h1 class="deg" id="high" >0°C </h1>
+      </div>
+      <div class="sunset">
+        <i class="bi bi-geo-alt"></i>
+        <h1 class="deg">country</h1>
+        <h1 class="deg" id="country" >0 </h1>
+      </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
